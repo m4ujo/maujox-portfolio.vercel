@@ -9,8 +9,8 @@ export default function Card ({ name, homepage, htmlUrl }) {
           <i className='bi bi-arrows-angle-expand' />
         </div>
         <div className='Card-bottom'>
-          <Button href={homepage} type='.line.blue'>Preview</Button>
-          <Button href={htmlUrl} type='.line.red'>Github</Button>
+          <Button href={homepage} style='.line.blue'>Preview</Button>
+          <Button href={htmlUrl} style='.line.red'>Github</Button>
         </div>
       </div>
     </div>
