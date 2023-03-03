@@ -11,8 +11,8 @@ export default function Home () {
         <span>Programmer</span>
       </p>
       <div className='Home-buttons'>
-        <Button href='#contact' type='.fill.blue'>Contact</Button>
-        <Button href='#' type='.line.red'>Download CV</Button>
+        <Button href='#contact' style='.fill.blue'>Contact</Button>
+        <Button href='#' style='.line.red'>Download CV</Button>
       </div>
     </div>
   )
