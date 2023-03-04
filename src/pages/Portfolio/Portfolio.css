@@ -1,0 +1,33 @@
+.Portfolio {
+  width: 100%;
+  background-color: var(--black-color-2);
+  padding: 6.25rem 1rem;
+  text-align: center;
+}
+
+.Portfolio-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.Portfolio-title::first-letter {
+  color: var(--primary-color);
+}
+
+.Portfolio-content {
+  max-width: 1820px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .Portfolio-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+}

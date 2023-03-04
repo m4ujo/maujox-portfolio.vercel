@@ -19,12 +19,18 @@ export const projects = [
   },
   {
     id: 4,
-    name: 'tasks-localstorage',
-    homepage: 'https://tasks-localstorage.vercel.app/',
-    htmlUrl: 'https://github.com/maujox/tasks-localstorage'
+    name: 'tasks-app-localstorage',
+    homepage: 'https://tasks-app-localstorage.vercel.app/',
+    htmlUrl: 'https://github.com/maujox/tasks-app-localstorage'
   },
   {
     id: 5,
+    name: 'logical-expression-solver',
+    homepage: 'https://github.com/maujox/logical-expression-solver/blob/main/README.md',
+    htmlUrl: 'https://github.com/maujox/logical-expression-solver'
+  },
+  {
+    id: 6,
     name: 'logical-expression-solver',
     homepage: 'https://github.com/maujox/logical-expression-solver/blob/main/README.md',
     htmlUrl: 'https://github.com/maujox/logical-expression-solver'

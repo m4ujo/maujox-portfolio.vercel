@@ -1,0 +1,66 @@
+.Button {
+  padding: .8rem 2rem;
+}
+
+.fill {
+  border-radius: 5px;
+  font-weight: 500;
+  border-width: 2px;
+  border-style: solid;
+  will-change: filter;
+  transition: filter 100ms;
+}
+.fill.red {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.fill.blue {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--black-color);
+}
+.fill.red:hover {
+  filter: drop-shadow(0 0 1rem #E63946);
+}
+.fill.blue:hover {
+  filter: drop-shadow(0 0 1rem #A8DADC);
+}
+
+.line {
+  border-radius: 5px;
+  font-weight: 500;
+  border-width: 2px;
+  border-style: solid;
+  padding: .625rem 2.25rem;
+  will-change: filter;
+  transition: filter 100ms;
+}
+.line.red {
+  border-color: var(--primary-color);
+}
+.line.blue {
+  border-color: var(--secondary-color);
+}
+
+.line.red:hover {
+  background-color: var(--primary-color);
+  filter: drop-shadow(0 0 1rem #E63946)
+}
+.line.blue:hover {
+  background-color: var(--secondary-color);
+  color: var(--black-color);
+  filter: drop-shadow(0 0 1rem #A8DADC)
+}
+
+.line.blue:active {
+  background-color: #A8DADC;
+}
+.line.red:active {
+  background-color: #E63946;
+}
+
+@media screen and (max-width: 500px) {
+  .Button {
+    padding: .8rem .5rem;
+  }
+}

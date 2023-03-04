@@ -3,7 +3,7 @@ import Input from './../../components/Input/Input'
 
 function Contact () {
   return (
-    <div className='Contact'>
+    <div className='Contact' id='contact'>
       <div className='Contact-content'>
         <h2 className='Contact-title'>Let<span>'</span>s talk about working together<span>...</span></h2>
         <div className='Contact-formContainer'>
