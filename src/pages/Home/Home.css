@@ -20,10 +20,11 @@
   margin-top: .6875rem;
 }
 
-.Home-jobName span:nth-child(1) {
+.Home-jobName span:first-child {
   color: var(--primary-color);
 }
-.Home-jobName span:nth-child(2) {
+
+.Home-jobName span:last-child {
   color: var(--secondary-color);
 }
 
@@ -33,10 +34,11 @@
   gap: 1.5625rem;
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   .Home-name {
     font-size: 3rem;
   }
+
   .Home-jobName {
     font-size: 2rem;
   }

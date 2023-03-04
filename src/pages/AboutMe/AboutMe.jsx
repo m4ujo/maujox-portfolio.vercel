@@ -30,13 +30,30 @@ export default function AboutMe () {
             </p>
             <p className='AboutMe-techTitle'>Technologies that I use currently:</p>
             <div className='AboutMe-devIcons'>
-              <i className='devicon-react-original' />
-              <i className='devicon-sass-original' />
-              <i className='devicon-python-plain' />
-              <i className='devicon-csharp-plain' />
-              <i className='devicon-dot-net-plain' />
-              <i className='devicon-mysql-plain' />
-              <i className='devicon-mongodb-plain' />
+              <div className='AboutMe-tooltip'>
+                <i className='devicon-react-original' />
+                <span>React</span>
+              </div>
+              <div className='AboutMe-tooltip'>
+                <i className='devicon-sass-original' />
+                <span>SASS</span>
+              </div>
+              <div className='AboutMe-tooltip'>
+                <i className='devicon-python-plain' />
+                <span>Python</span>
+              </div>
+              <div className='AboutMe-tooltip'>
+                <i className='devicon-csharp-plain' />
+                <span>C#</span>
+              </div>
+              <div className='AboutMe-tooltip'>
+                <i className='devicon-mysql-plain' />
+                <span>MySQL</span>
+              </div>
+              <div className='AboutMe-tooltip'>
+                <i className='devicon-mongodb-plain' />
+                <span>MongoDB</span>
+              </div>
             </div>
           </div>
         </div>

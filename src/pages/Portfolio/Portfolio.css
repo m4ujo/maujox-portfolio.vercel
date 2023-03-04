@@ -12,11 +12,11 @@
 }
 
 .Portfolio-title::first-letter {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .Portfolio-content {
-  max-width: 1820px;
+  max-width: 1600px;
   margin: 0 auto;
   display: flex;
   justify-content: center;

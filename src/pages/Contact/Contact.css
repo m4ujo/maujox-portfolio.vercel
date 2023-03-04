@@ -1,0 +1,132 @@
+.Contact {
+  width: 100%;
+  padding: 6.25rem 0;
+  background-color: var(--black-color-2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contact-content {
+  justify-self: center;
+  text-align: center;
+}
+
+.Contact-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.Contact-title span:nth-child(1) {
+  color: var(--primary-color);
+}
+.Contact-title span:nth-child(2) {
+  color: var(--secondary-color);
+}
+
+.Contact-formContainer {
+  display: flex;
+  justify-content: center;
+}
+.Contact-formRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+.Contact-formRow > * {
+  width: 100%;
+}
+
+.Contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+textarea {
+  resize: none;
+  border-bottom: 2px solid;
+  border-color: var(--text-color);
+  color: var(--text-color);
+  font-weight: 500;
+  padding: 8px 10px;
+  height: 100px;
+}
+textarea:focus {
+  border-color: var(--secondary-color)
+}
+textarea:focus {
+  border-color: var(--secondary-color)
+}
+
+.Contact-socialIcons {
+  display: flex;
+  gap: 1rem;
+}
+
+.Contact-socialIcons a {
+  font-size: 24px;
+}
+
+.Contact-socialIcons a:hover {
+  animation: rotate-icon 500ms both;
+}
+
+@keyframes rotate-icon {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.Contact-socialIcons a i {
+  will-change: filter;
+  transition: filter 100ms;
+}
+
+.Contact-socialIcons a:nth-child(1) i:hover {
+  color: #24c76d;
+  filter: drop-shadow(0 0 .5rem #24c76d)
+}
+.Contact-socialIcons a:nth-child(2) i:hover {
+  color: #ec60ff;
+  filter: drop-shadow(0 0 .5rem #ec60ff)
+}
+.Contact-socialIcons a:nth-child(3) i:hover {
+  color: #1b91ff;
+  filter: drop-shadow(0 0 .5rem #1b91ff)
+}
+.Contact-socialIcons a:nth-child(4) i:hover {
+  color: #9aceff;
+  filter: drop-shadow(0 0 .5rem #9aceff)
+}
+
+.Contact-form .Button {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .3rem;
+}
+
+.Contact-form .Button i {
+  color: var(--black-color);
+}
+
+.Contact-form .Button:hover i {
+  animation: rotate-send-icon 100ms both;
+}
+
+@keyframes rotate-send-icon {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(45deg);
+  }
+}
