@@ -8,8 +8,8 @@ export default function Home () {
         Mauricio Castillo
       </h1>
       <p className='Home-p Home-jobName'>
-        <span>Self-taught </span>
-        <span>Programmer</span>
+        <span>Front-end </span>
+        <span>Developer</span>
       </p>
       <div className='Home-buttons'>
         <Button href='#contact' style='fill blue'>Contact</Button>
