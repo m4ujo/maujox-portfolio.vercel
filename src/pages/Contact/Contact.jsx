@@ -21,7 +21,7 @@ function Contact () {
               <textarea name='Message' placeholder='Message' id='Message' />
             </div>
             <input type='hidden' name='_captcha' value='false' />
-            <input type='hidden' name='_next' value='http://localhost:5173' />
+            <input type='hidden' name='_next' value='https://www.maujox.com' />
             <div className='Contact-formRow'>
               <div className='Contact-socialIcons'>
                 <a

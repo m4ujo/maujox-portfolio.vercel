@@ -1,6 +1,6 @@
 .Contact {
   width: 100%;
-  padding: 6.25rem 0;
+  padding: 6.25rem 2em;
   background-color: var(--black-color-2);
   display: flex;
   justify-content: center;
@@ -25,10 +25,6 @@
   color: var(--secondary-color);
 }
 
-.Contact-formContainer {
-  display: flex;
-  justify-content: center;
-}
 .Contact-formRow {
   display: flex;
   justify-content: center;
@@ -128,5 +124,24 @@ textarea:focus {
   }
   to {
     transform: rotate(45deg);
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .Contact-title {
+    font-size: 2rem;
+  }
+
+  .Contact-formRow {
+    flex-direction: column;
+  }
+
+  .Contact-socialIcons {
+    justify-content: center;
+  }
+
+  .Contact-form .Contact-formRow:nth-child(6) {
+    flex-direction: column-reverse;
+    gap: 3rem;
   }
 }

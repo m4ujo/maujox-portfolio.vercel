@@ -28,11 +28,5 @@ export const projects = [
     name: 'logical-expression-solver',
     homepage: 'https://github.com/maujox/logical-expression-solver/blob/main/README.md',
     htmlUrl: 'https://github.com/maujox/logical-expression-solver'
-  },
-  {
-    id: 6,
-    name: 'logical-expression-solver',
-    homepage: 'https://github.com/maujox/logical-expression-solver/blob/main/README.md',
-    htmlUrl: 'https://github.com/maujox/logical-expression-solver'
   }
 ]

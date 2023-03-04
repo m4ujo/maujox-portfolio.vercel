@@ -19,7 +19,7 @@
 }
 
 .AboutMe-content {
-  max-width: 1000px;
+  max-width: 950px;
   min-width: 200px;
   height: 100%;
   margin: 0 auto;
@@ -34,7 +34,7 @@
 }
 .AboutMe-content:hover {
   border: 2px solid var(--primary-color);
-  filter: drop-shadow(0 0 .5rem var(--primary-color))
+  filter: drop-shadow(0 0 0.5rem var(--primary-color));
 }
 
 .AboutMe-left {
@@ -122,7 +122,7 @@
   font-weight: 500;
   opacity: 0;
   width: 90px;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   background-color: var(--white-color);
   color: var(--black-color);
   text-align: center;
@@ -140,9 +140,11 @@
 }
 
 @media screen and (max-width: 630px) {
-
   .AboutMe {
     padding: 6.25rem 1.5rem;
+  }
+  .AboutMe-title {
+    font-size: 2rem;
   }
 
   .AboutMe-content {
