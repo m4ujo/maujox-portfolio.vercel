@@ -5,7 +5,6 @@ export default function Nav ({ navOpen, setNavOpen }) {
 
   useEffect(() => {
     const navLinks = ref.current.children[0].children
-    console.log(navLinks)
 
     for (let i = 0; i < navLinks.length; i++) {
       const element = navLinks[i]

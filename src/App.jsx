@@ -9,12 +9,12 @@ function App () {
   return (
     <>
       <Header />
-      <div className='App'>
+      <main className='App'>
         <Home />
         <Portfolio />
         <AboutMe />
         <Contact />
-      </div>
+      </main>
     </>
   )
 }

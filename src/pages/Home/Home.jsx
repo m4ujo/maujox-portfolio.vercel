@@ -3,7 +3,7 @@ import './Home.css'
 
 export default function Home () {
   return (
-    <div className='Home' id='home'>
+    <section className='Home' id='home'>
       <h1 className='Home-h1 Home-name'>
         Mauricio Castillo
       </h1>
@@ -13,8 +13,8 @@ export default function Home () {
       </p>
       <div className='Home-buttons'>
         <Button href='#contact' style='fill blue'>Contact</Button>
-        <Button href='#' style='fill red'>Download CV</Button>
+        <Button href='#' style='line red'>Download CV</Button>
       </div>
-    </div>
+    </section>
   )
 }

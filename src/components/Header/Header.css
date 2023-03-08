@@ -26,7 +26,7 @@
   font-weight: bold;
 }
 
-.hamburger-react {
+.Header-menu {
   display: none;
 }
 
@@ -59,7 +59,36 @@
   .Link-text {
     font-size: 1.5rem;
   }
-  .hamburger-react {
-    display: block;
+  .Header-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    position: relative;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+  }
+  .menu-line {
+    background-color: var(--white-color);
+    width: 20px;
+    height: 3px;
+    border-radius: 10px;
+    transition-property: transform, opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+  }
+
+  .Header.open .menu-line:nth-child(1) {
+    height: 4px;
+    transform: rotate(45deg) translateY(10.5px)
+  }
+  .Header.open .menu-line:nth-child(2) {
+    opacity: 0;
+  }
+  .Header.open .menu-line:nth-child(3) {
+    height: 4px;
+    transform: rotate(-45deg) translateY(-10.5px)
   }
 }

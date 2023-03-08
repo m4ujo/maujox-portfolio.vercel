@@ -3,7 +3,7 @@ import './AboutMe.css'
 
 export default function AboutMe () {
   return (
-    <div className='AboutMe' id='about-me'>
+    <section className='AboutMe' id='about-me'>
       <h2 className='AboutMe-title'>
         <span>About-</span>
         <span>Me</span>
@@ -16,19 +16,25 @@ export default function AboutMe () {
           <div className='AboutMe-textContainer'>
             <p className='AboutMe-p AboutMe-desc'>
               <span>
-                Hi! I'm Mauricio Joaquin (maujo), I'm 21 years old and I'm a lover of programming, design and web development.
+                Hi! I'm Mauricio Joaquin (maujo), I'm 21 years old and I'm a
+                lover of programming, design and web development.
               </span>
               <span>
-                I have strong background in desktop application development with the .NET Framework.
+                I have strong background in desktop application development with
+                the .NET Framework.
               </span>
               <span>
-                Recently I've been learning about databases and front-end technologies on my own, which shows that I'm organized and very productive.
+                Recently I've been learning about databases and front-end
+                technologies on my own, which shows that I'm organized and very
+                productive.
               </span>
               <span>
                 My current goal is to be a good full stack developer 🔥.
               </span>
             </p>
-            <p className='AboutMe-techTitle'>Technologies that I use currently:</p>
+            <p className='AboutMe-techTitle'>
+              Technologies that I use currently:
+            </p>
             <div className='AboutMe-devIcons'>
               <div className='AboutMe-tooltip'>
                 <i className='devicon-react-original' />
@@ -58,6 +64,6 @@ export default function AboutMe () {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

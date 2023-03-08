@@ -42,4 +42,9 @@
   .Home-jobName {
     font-size: 2rem;
   }
+
+  .Home-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
