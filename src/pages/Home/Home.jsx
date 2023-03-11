@@ -13,7 +13,7 @@ export default function Home () {
       </p>
       <div className='Home-buttons'>
         <Button href='#contact' style='fill blue'>Contact</Button>
-        <Button href='#' style='fill red'>Download CV</Button>
+        <Button href='/resume.pdf' style='fill red' newTab='_blank'>Download CV</Button>
       </div>
     </section>
   )
