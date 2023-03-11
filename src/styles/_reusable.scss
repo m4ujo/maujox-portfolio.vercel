@@ -1,0 +1,70 @@
+/* Mobile */
+@media screen and (min-width: 280px) and (max-width: 480px) {
+  .xPaddings {
+    padding: 0 1rem;
+    
+    &-special {
+      padding: 0 1rem;
+    }
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .xPaddings {
+    padding: 0 2rem;
+    
+    &-special {
+      padding: 0 3rem;
+    }
+  }
+}
+
+/* Small screens, laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .xPaddings {
+    padding: 0 3rem;
+    
+    &-special {
+      padding: 0 4rem;
+    }
+  }
+}
+
+/* Large screens, desktops */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .xPaddings {
+    padding: 0 4rem;
+    
+    &-special {
+      padding: 0 5rem;
+    }
+  }
+}
+
+/* Large screens, desktops 2 */
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+  .xPaddings {
+    padding: 0 5rem;
+
+    &-special {
+      padding: 0 7rem;
+    }
+  }
+}
+
+/* Large screens, desktops 2 */
+@media screen and (min-width: 1601px) {
+  .xPaddings {
+    padding: 0 10rem;
+
+    &-special {
+      padding: 0 15rem;
+    }
+  }
+}
+
+.yPaddings {
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+}

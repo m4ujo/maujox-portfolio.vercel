@@ -1,4 +1,4 @@
-import './Button.css'
+import './Button.scss'
 
 function Button ({ type = 'a', style = '', href = '#', newTab, children }) {
   return (type === 'a')

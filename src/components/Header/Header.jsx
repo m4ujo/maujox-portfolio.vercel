@@ -1,26 +1,24 @@
-import { useState } from 'react'
+import Logo from '../Logo/Logo'
 import Nav from './../Nav/Nav'
+import { ThemeContext } from '../../context/ThemeContext'
+import { useContext } from 'react'
 
-import './Header.css'
+import './Header.scss'
 
 export default function Header () {
-  const [navOpen, setNavOpen] = useState(false)
-
-  const handleMenu = () => {
-    setNavOpen(!navOpen)
-  }
+  const { theme, toggleTheme } = useContext(ThemeContext)
 
   return (
-    <header className={'Header' + (navOpen ? ' open' : '')}>
-      <a href='/'>
-        <img src='/maujox.svg' alt='Maujox' className='Header-logo' />
-      </a>
-      <div className='Header-nav'>
-        <Nav navOpen={navOpen} setNavOpen={setNavOpen} />
-        <div className='Header-menu' onClick={handleMenu}>
-          <div className='menu-line' />
-          <div className='menu-line' />
-          <div className='menu-line' />
+    <header className='Header xPaddings'>
+      <div className='Header-content'>
+        <Logo />
+        <div className='Header-side'>
+          <Nav />
+          <button onClick={toggleTheme}>
+            {
+              theme === '' ? <i className='bi bi-sun-fill' /> : <i className='bi bi-moon-fill' />
+            }
+          </button>
         </div>
       </div>
     </header>

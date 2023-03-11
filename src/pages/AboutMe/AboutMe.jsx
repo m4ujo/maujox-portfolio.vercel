@@ -1,9 +1,9 @@
 import Me from './../../assets/img/me-transparent.png'
-import './AboutMe.css'
+import './AboutMe.scss'
 
 export default function AboutMe () {
   return (
-    <section className='AboutMe' id='about-me'>
+    <section className='AboutMe xPaddings-special yPaddings' id='about-me'>
       <h2 className='AboutMe-title'>
         <span>About-</span>
         <span>Me</span>

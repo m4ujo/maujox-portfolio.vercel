@@ -1,0 +1,51 @@
+.Card {
+  border: 2px solid var(--border-color);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+
+  will-change: filter;
+  transition: filter 300ms;
+
+  &:nth-child(odd):hover {
+    border: 2px solid var(--secondary-color);
+    filter: drop-shadow(0 0 0.2rem var(--secondary-color));
+  }
+  &:nth-child(even):hover {
+    border: 2px solid var(--primary-color);
+    filter: drop-shadow(0 0 0.2rem var(--primary-color));
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    padding: 1.5rem 1.5rem;
+  }
+
+  &-top {
+    display: flex;
+  }
+
+  &-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  &-projectTitle {
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+    display: flex;
+    gap: 0.2rem;
+
+    & > span:nth-child(2) {
+      margin-top: 3px;
+      width: 100%;
+    }
+  }
+}

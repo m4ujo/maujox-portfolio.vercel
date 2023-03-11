@@ -1,11 +1,11 @@
 import Button from '../../components/Button/Button'
 import Input from './../../components/Input/Input'
 
-import './Contact.css'
+import './Contact.scss'
 
 function Contact () {
   return (
-    <section className='Contact' id='contact'>
+    <section className='Contact xPaddings-special yPaddings' id='contact'>
       <div className='Contact-content'>
         <h2 className='Contact-title'>
           Let<span>'</span>s talk about working together<span>...</span>
